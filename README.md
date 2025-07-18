@@ -18,6 +18,23 @@ Esse projeto tem o objetivo de apresentar, de maneira inédita, os quantitativos
 
 Os dados vão ser lidos e analisados utilizando diversas ferramentas de código aberto, incluindo: Python, GeoPandas, PDAL, Shapely, GDAL entre outros. Depois de processados e armazenados em uma tabela contendo cada uma das favelas de São Paulo os dados serão apresentados em um painel de visualização utilizando o Streamlit.
 
+Abaixo um roteiro para a análise dos dados e processamento:
+
+* Cálculo dos atributos em 2017 para cada uma das favelas
+* Cálculo da dinâmica de crescimento para 2020 e 2024
+
+Abaixo a lista de atributos calculáveis para cada um dos anos
+
+* Área construída total
+* Área de projeção
+* Coeficiente de Aproveitamento
+* Taxa de Ocupação
+* Gabarito mediano
+* Gabarito do primeiro quartil
+* Gabarito do último quartil
+* Rugosidade do Terreno (Desvio padrão das cotas do terreno)
+* Rugosidade das edificações (Desvio padrão das alturas das edificações)
+
 ## Resultados esperados
 
 Ao término do desenvolvimento espera-se manter disponível de uma maneira ampla e de fácil acesso os dados levantados e calculados para todas as favelas e assim contribuir com dados empíricos para a discussão e elaboração de políticas públicas, hipóteses e comparações dessa porção do tecido urbano. 
