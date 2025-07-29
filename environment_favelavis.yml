@@ -1,0 +1,16 @@
+name: favelavis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - streamlit
+  - geopandas
+  - rasterio
+  - plotly
+  - gdal
+  - jupyter
+  - scipy
+  - scikit-learn
+  - pip
+  - pip:
+      - streamlit-folium
